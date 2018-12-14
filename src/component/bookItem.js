@@ -4,7 +4,7 @@ import { Card, Button, CardTitle, CardText } from 'reactstrap';
 const BookItem = (props) => {
   return (
   
-       <div style={{overflowY: 'scroll',border: '1px solid black',width: '40vw',height:'93vh'}}>
+       <div style={{overflowY: 'scroll',border: '1px solid black',width: '40vw',height:'93vh', backgroundColor:"gray"}}>
       
        <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -12,8 +12,8 @@ const BookItem = (props) => {
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw', marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
      
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
@@ -22,8 +22,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
      
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
@@ -32,8 +32,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
 
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
@@ -42,8 +42,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -51,8 +51,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -60,8 +60,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -69,16 +69,16 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card> <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
 
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -86,8 +86,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -95,8 +95,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
       </Card>
       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
       <img src="https://via.placeholder.com/150 
@@ -104,8 +104,8 @@ C/O https://placeholder.com/#"></img>
 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
         <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-        <Button>Add to cart</Button>
+        
+        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button> 
       </Card>
       </div>
     

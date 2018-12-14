@@ -9,21 +9,13 @@ import BookItem from './component/BookItem'
 
 
 class App extends Component {
-  // state = {
-  //   bookCart:[]
-  //   total:0,
-  //   form:{
-  //     quantity:"1"
-  //     selectBookId: "0"
-    // }
-  // }
   render() {
     return (
       <div className="App">
+        <Header/>
         <Container>
-          <Header/>
+          
           <Row>
-          {/* <CartItems/> */}
         
           <BookItem/>
           </Row>
