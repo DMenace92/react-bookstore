@@ -25,11 +25,19 @@ class Header extends React.Component {
                     BookStore
                     <div style={{display:'flex',float:'right'}}>
         <Button color="white" onClick={this.toggle}>{this.props.buttonLabel} Cart</Button>
-        <Modal isOpen={this.state.modal} modalTransition={{ timeout: 700 }} backdropTransition={{ timeout: 1300 }}
+        <Modal isOpen={this.state.modal} backdropTransition={{ timeout: 1300 }}
           toggle={this.toggle} className={this.props.className}>
           <ModalHeader  toggle={this.toggle}>Book Cart</ModalHeader>
-          <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <ModalBody >
+              <div style={{border: "1px solid black",overflowX:"scroll"}}>
+              <div style={{border: "1px solid black", width:'7vw',height:'18vh'}}>
+              <img src="https://via.placeholder.com/150 C/O https://placeholder.com/#"></img>
+              </div>
+              <p>title:</p>
+              <p>discription:</p>
+              <p>author:</p>
+              
+              </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}

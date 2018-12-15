@@ -3,7 +3,7 @@ import {Container,Row} from 'reactstrap'
 import Header from './component/Header'
 // import SideBar from './component/SideBar'
 import BookItem from './component/BookItem'
-// import CartItems from './component/CartItems'
+
 
 
 
@@ -12,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div class="Row" style={{marginRight:'29vw'}}>
         <Header/>
         <Container>
           
@@ -20,6 +21,7 @@ class App extends Component {
           <BookItem/>
           </Row>
         </Container>
+        </div>
       </div>
     );
   }

@@ -4,109 +4,16 @@ import { Card, Button, CardTitle, CardText } from 'reactstrap';
 const BookItem = (props) => {
   return (
   
-       <div style={{overflowY: 'scroll',border: '1px solid black',width: '40vw',height:'93vh', backgroundColor:"gray"}}>
+       <div style={{overflowY:'scroll',width:'40vw',height:'93vh', backgroundColor:"gray"}}>
       
        <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
+      <img src="https://via.placeholder.com/150 C/O https://placeholder.com/#"></img>
         <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw', marginLeft:'30vw'}}>Add to cart</Button>
+        <CardText >With supporting text below as a natural lead-in to additional content.</CardText>
+        <Button style={{width:'10.2vw', marginLeft:'28vw',fontSize:'2vh'}}>Add to cart</Button>
       </Card>
-     
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-     
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card> <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button>
-      </Card>
-      <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
-      <img src="https://via.placeholder.com/150 
-
-C/O https://placeholder.com/#"></img>
-        <CardTitle>Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        
-        <Button style={{width:'10vw',  marginLeft:'30vw'}}>Add to cart</Button> 
-      </Card>
+      
+  
       </div>
     
   );
