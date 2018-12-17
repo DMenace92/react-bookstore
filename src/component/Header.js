@@ -40,7 +40,7 @@ class Header extends React.Component {
               </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+            <Button color="primary" onClick={this.toggle}>Checkout</Button>{' '}
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
