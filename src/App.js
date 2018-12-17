@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container,Row} from 'reactstrap'
 import Header from './component/Header'
-// import SideBar from './component/SideBar'
+// import AddItem from './component/AddItem'
 import BookItem from './component/BookItem'
 
 
@@ -14,6 +14,7 @@ class App extends Component {
       <div className="App">
       <div class="Row" style={{marginRight:'29vw'}}>
         <Header/>
+        {/* <AddItem/> */}
         <Container>
           
           <Row>

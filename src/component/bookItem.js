@@ -65,6 +65,26 @@ const BookItem = (props) => {
       
   </div>
 
+  <div>
+       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
+       <CardTitle style={{width:'20vw',position:'absolute', left:'21vh',fontSize:'20px',fontStyle:"bold"}}>Special Title Treatment</CardTitle>
+       <CardText style={{width:'20vw',textAlign:'center',position:'absolute', left:'10vw',top:'60px'}}>With supporting text below as a natural lead-in to additional content.</CardText>
+      <div style={{border:'1px solid black', width:'7vw', height:'20vh'}}><img src="https://via.placeholder.com/150 C/O https://placeholder.com/#"></img></div>
+        <Button style={{width:'10.2vw', marginLeft:'28vw',fontSize:'2vh'}}>Add to cart</Button>
+      </Card>
+      
+  </div>
+
+  <div>
+       <Card style={{border:'1px solid black', margin:'5px'}}body className="text-center">
+       <CardTitle style={{width:'20vw',position:'absolute', left:'21vh',fontSize:'20px',fontStyle:"bold"}}>Special Title Treatment</CardTitle>
+       <CardText style={{width:'20vw',textAlign:'center',position:'absolute', left:'10vw',top:'60px'}}>With supporting text below as a natural lead-in to additional content.</CardText>
+      <div style={{border:'1px solid black', width:'7vw', height:'20vh'}}><img src="https://via.placeholder.com/150 C/O https://placeholder.com/#"></img></div>
+        <Button style={{width:'10.2vw', marginLeft:'28vw',fontSize:'2vh'}}>Add to cart</Button>
+      </Card>
+      
+  </div>
+
  
       </div>
     
